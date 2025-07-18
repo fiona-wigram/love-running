@@ -135,6 +135,11 @@ main{
     margin-bottom: 20px;
 }
 
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
