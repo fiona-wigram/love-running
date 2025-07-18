@@ -17,8 +17,6 @@ body{
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-
-
 }
 
 h1, h2, h3 {
@@ -29,7 +27,9 @@ h1, h2, h3 {
     
 }
 
-
+.hidden-heading {
+    display: none;
+}
 
 /* Header */
 header {
