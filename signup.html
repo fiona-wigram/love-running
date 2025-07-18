@@ -54,23 +54,29 @@
     <!--Main body of content-->
     <main>
       <section id="signup">
-        <form id="signup-form" action="#signup-form" method="POST" url="https://formdump.codeinstitute.net/">
-        <h2><i class="fa-solid fa-heart-pulse"></i> Lets get you<br>signed up!</h2>
-        <div class="text-input">
-          <label for="first-name">First Name:</label>
-          <input type="text" id="#first-name" name="first-name" required><br>
-          <label for="last-name">Last Name:</label>
-          <input type="text" id="#last-name" name="last-name" required><br>
-          <label for="email">Email Address:</label>
-          <input type="email" id="#email" name="email" required><br>
-        </div>
+        <form id="signup-form" action="#signup-form" method="POST" url="https://formdump.codeinstitute.net">
+        <h2><i class="fa-solid fa-heart-pulse"></i> Lets get you signed up!</h2>
+        
+          <label for="first-name">First Name</label>
+          <input type="text" id="#first-name" name="first_name" class="text-input" required><br>
+          <label for="last-name">Last Name</label>
+          <input type="text" id="#last-name" name="last_name" required class="text-input"><br>
+          <label for="email">Email Address</label>
+          <input type="email" id="#email" name="email" class="text-input" required><br>
+        
       <div class="radio-buttons">
+        <di>
         <label for="road">Road</label>
-        <input type="radio" id="road" name="running-preference" value="road" required><br>
+        <input type="radio" id="road" name="running-preference" value="road" required checked><br>
+        </di>
+        <div>
         <label for="trail">Trail</label>
         <input type="radio" id="trail" name="running-preference" value="trail" required><br>
+        </div>
+        <div>
         <label for="both">Both</label>
         <input type="radio" id="both" name="running-preference" value="both" required><br>
+        </div>
       </div>
 
         <input type="submit" value="Let's Run!" class="join-button">
