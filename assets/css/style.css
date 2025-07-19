@@ -203,6 +203,13 @@ main{
     line-height: 0;
 }
 
+/* Signup page*/
+
+main {
+    background: url("../images/signup-image.webp") no-repeat center center/ cover;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
