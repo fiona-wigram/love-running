@@ -206,10 +206,59 @@ main{
 /* Signup page*/
 
 main {
-    background: url("../images/signup-image.webp") no-repeat center center/ cover;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 47px;
+}
+
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size:cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color:#ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+
+}
+
+.text-input {
+    background-color: transparent;
+    color: #fafafa;
+    margin: 5px 0 20px 0;
+    width: 100%;
+    height: 25px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
 }
 
 
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.join-button {
+    border-radius: 2px;
+    padding: 15px 32px;
+    margin-top: 20px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -222,7 +271,7 @@ main {
 #social-networks i {
     font-size: 160%;
     color: #3a3a3a;
-    padding: 5%
+    padding: 5%;
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -295,6 +344,19 @@ main {
     #photos {
         column-count: 3;
     }
+
+    
+    /* Signup section*/
+/*
+    #signup {
+    background-position: center;
+    position: relative;
+}
+
+    #sign-up-form {
+        position: absolute;
+        max-width: 400px;;
+    } */
 }
 
 /* Media query:Large devices (laptops and desktops, 992px and up) */
